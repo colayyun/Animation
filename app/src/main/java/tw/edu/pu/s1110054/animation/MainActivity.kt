@@ -69,7 +69,6 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-
 fun Animation(m:Modifier){
     var appear by remember { mutableStateOf(true) }  //背景出現
     var expanded by remember { mutableStateOf(true) }  //背景延展
